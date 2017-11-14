@@ -1,4 +1,4 @@
-# Thème / Framework minimal pour Guideline version Mobile
+# Thème / Framework minimal version Mobile
 
 Fichiers de ressources du site Guideline
 
