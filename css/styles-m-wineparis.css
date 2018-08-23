@@ -78,6 +78,14 @@ body.exposer { padding-top: 182px; position: relative; }
 body.exposer .wrapper { overflow: hidden; }
 body.exposer:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 182px; background: url(images/intro-small.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
 
+div, textarea, table, td, th, code, pre, samp {
+word-wrap: normal;
+-webkit-hyphens: none;
+   -moz-hyphens: none;
+    -ms-hyphens: none;
+        hyphens: none;
+}
+
 
 
 /* ------------------------------------------------------------ *\
@@ -622,13 +630,17 @@ body.exposer:after { content: ''; position: absolute; top: 0; left: 0; width: 10
     Cookie
 \* ------------------------------------------------------------ */
 
-.cookies { position: fixed; bottom: 0; left: 0; width: 100%; background: #231f20; color: #fff; padding: 24px 0 18px; z-index: 100; text-align: center;  }
-.cookies p { font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 11px; line-height: 1.64; letter-spacing: 0.1em; padding: 0 32px;  }
-.cookies p a { color: #fff; text-decoration: none; display: inline-block; position: relative; }
+/*.cc-cookies  { position: fixed; bottom: 0; left: 0; width: 100%; background: #231f20; color: #fff; padding: 24px 0 18px; z-index: 100; text-align: center;  }
+.cc-cookies  p { font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 11px; line-height: 1.64; letter-spacing: 0.1em; padding: 0 32px;  }
+.cc-cookies  p a { color: #fff; text-decoration: none; display: inline-block; position: relative; }
 
-.cookies .btn-alt { padding: 12px 19px 10px; margin: 24px 0 0;  }
+.cc-cookies .btn-alt { padding: 12px 19px 10px; margin: 24px 0 0;  }*/
 
-
+.cc-cookies { position: fixed; bottom: 0; top: auto; background: #231f20; font-size: 13px; line-height: 1.54em; letter-spacing: 0.1em;  text-align: center; color: #fff; padding: 25px 35px 17px; }
+.cc-cookies .cc-cookie-accept { position: relative; width: 174px; text-transform: uppercase; border: 1px solid #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.2em; margin: 20px auto 0!important; background: #231f20; padding: 10px 56px 10px 10px; }
+.cc-cookies .cc-cookie-accept:after { position: absolute; content: ''; background: url(../img2/icons/ico-arrow-white.png) no-repeat 0 0; width: 28px; height: 11px; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); right: 20px; }
+.cc-cookies .cc-cookie-link { color: inherit; text-decoration: none; }
+.cc-cookies .inside { text-align: center; }
 /* ------------------------------------------------------------ *\
     Zone 1
 \* ------------------------------------------------------------ */
@@ -1058,12 +1070,7 @@ body.exposer:after { content: ''; position: absolute; top: 0; left: 0; width: 10
 /* ------------------------------------------------------------ *\
     CxpmClientAccountWidget
 \* ------------------------------------------------------------ */
-
-
 #cxpmClientAccountWidget .widget-text { display: none !important; }
-
-
-
 
 /* ------------------------------------------------------------ *\
     Nav
@@ -1095,6 +1102,7 @@ body.exposer:after { content: ''; position: absolute; top: 0; left: 0; width: 10
 .main-navigation .mn-menu > li:nth-child(6):before { width: 60px; }
 
 
+
 .main-navigation .mn-menu .mn-item-has-submenu.is-open > a  { background: none; }
 .main-navigation .mn-menu li ul { background: none; padding-left: 15px; margin-top: -4px; margin-bottom: -3px; }
 .main-navigation .mn-menu li ul a { padding: 0; letter-spacing: 0.08em; }
@@ -1106,13 +1114,21 @@ body.exposer:after { content: ''; position: absolute; top: 0; left: 0; width: 10
 .main-navigation .mn-menu li ul .mn-link-text:before { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); width: 7px; height: 2px; top: 10px;  }
 
 
-.main-navigation .widget-text { display: block; margin-left: 20px; margin-top: -42px; }
+/*.main-navigation .widget-text { display: block; margin-left: 20px; margin-top: -42px; }
 .main-navigation .widget-text a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; }
 .main-navigation .widget-text .cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
 .main-navigation .widget-text .cap-icon-user-circle-o:before { display: none; }
 
 
-.main-navigation .widget-text + .widget-text { display: none; }
+.main-navigation .widget-text + .widget-text { display: none; }*/
+
+
+.main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; margin-top: -42px; }
+.main-navigation #widgetMobileLinkOpenCap a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; text-transform: none; }
+.main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
+.main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o:before { display: none; }
+
+
 
 .main-navigation .links-espaces { margin: 36px 0 0; text-align: center; }
 .main-navigation .links-espaces li { display: inline-block; position: relative; }
