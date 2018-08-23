@@ -8,8 +8,12 @@
 			$(this).toggleClass('active')
 		})
 
-		if ( $('#cxpmClientAccountWidget').length ) {
-			$('#cxpmClientAccountWidget .widget-text:first-child').clone(true).appendTo('.main-navigation')
+//		if ( $('#cxpmClientAccountWidget').length ) {
+//			$('#cxpmClientAccountWidget .widget-text:first-child').clone(true).appendTo('.main-navigation')
+//		}
+		
+		if ( $('#widgetMobileLinkOpenCap').length ) {
+			$('#widgetMobileLinkOpenCap').clone(true).appendTo('.main-navigation')
 		}
 
 		if ( $('.links-espaces').length ) {
@@ -124,7 +128,6 @@
 		$('.header-content').appendTo('.site-banner .inside');
 
 		if ( $('#youmax').length ) {
-	           // Init Youtube Videos Slider
 	           $('#youmax').youmax({
 	               apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
 	               vimeoAccessToken: '',
