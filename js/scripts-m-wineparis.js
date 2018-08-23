@@ -34,11 +34,11 @@
 				width: '100%',
 				circular: true,
 				infinite: true,
-				responsive: true,	
+				responsive: true,
 				swipe: true,
 				pagination: {
 					container       : "#slider-pagination"
-				},			
+				},
 				auto: {
 					play: false,
 					timeoutDuration: 0
@@ -57,11 +57,11 @@
 					width: '100%',
 					circular: true,
 					infinite: true,
-					responsive: true,	
+					responsive: true,
 					swipe: true,
 					pagination: {
 						container       : "#slider-pagination1"
-					},			
+					},
 					auto: {
 						play: false,
 						timeoutDuration: 0
@@ -78,7 +78,7 @@
 				width: '100%',
 				circular: true,
 				infinite: true,
-				responsive: true,					
+				responsive: true,
 				auto: {
 					play: true,
 					timeoutDuration: 0
@@ -112,14 +112,16 @@
 			});
 		}
 
-			
-		
+
+
 	})
 
 	$win.on('load', function() {
 		setTimeout(function() {
 			$('.intro-alt').addClass('animate-links')
 		}, 300);
+
+		$('.header-content').appendTo('.site-banner .inside');
 
 		if ( $('#youmax').length ) {
 	           // Init Youtube Videos Slider
@@ -130,10 +132,10 @@
 	               channel: '',
 	               youtube_playlist_videos: [{
 	                   name: 'Videos',
-	                   url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
+	                   url: 'https://www.youtube.com/playlist?list=PLXejX05KCwBGpkz7nYFWQT0_VS7MLuZUM',
 	                   selected: true
 	               }],
-	               
+
 	               loadMode: 'paginate-sides',
 	               loadButtonSize: 'small',
 	               hideHeader: true,
@@ -153,6 +155,3 @@
 	})
 
 })(jQuery, window, document);
-
-
-
