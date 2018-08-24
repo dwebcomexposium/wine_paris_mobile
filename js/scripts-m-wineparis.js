@@ -12,9 +12,9 @@
 //			$('#cxpmClientAccountWidget .widget-text:first-child').clone(true).appendTo('.main-navigation')
 //		}
 		
-		if ( $('#widgetMobileLinkOpenCap').length ) {
-			$('#widgetMobileLinkOpenCap').clone(true).appendTo('.main-navigation')
-		}
+//		if ( $('#widgetMobileLinkOpenCap').length ) {
+//			$('#widgetMobileLinkOpenCap').appendTo('.main-navigation')
+//		}
 
 		if ( $('.links-espaces').length ) {
 			$('.links-espaces').clone(true).appendTo('.main-navigation')
@@ -135,7 +135,7 @@
 	               channel: '',
 	               youtube_playlist_videos: [{
 	                   name: 'Videos',
-	                   url: 'https://www.youtube.com/playlist?list=PLXejX05KCwBGpkz7nYFWQT0_VS7MLuZUM',
+	                   url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
 	                   selected: true
 	               }],
 
