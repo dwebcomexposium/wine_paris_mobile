@@ -87,6 +87,9 @@ word-wrap: normal;
 }
 
 
+.quicklinks-navigation .ql-item-link:focus,
+.quicklinks-navigation .ql-item-link:hover, .mn-link.is-active { background: inherit; }
+
 
 /* ------------------------------------------------------------ *\
     ICons
@@ -356,7 +359,7 @@ word-wrap: normal;
 \* ------------------------------------------------------------ */
 
 .pourquoi-exposer { padding: 23px 0 10px; }
-.pourquoi-exposer .la-main-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 21px; line-height: 1.1; color: #231f20; margin: 0 0 -13px;    }
+.pourquoi-exposer .la-main-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 21px; line-height: 1.1; color: #231f20; margin: 0 0 -13px; padding: 0 15px;   }
 
 
 
@@ -366,7 +369,8 @@ word-wrap: normal;
 
 .section-alt { padding: 29px 0;   }
 .section-alt .section__head { position: static !important; -webkit-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); text-align: center; margin-bottom: 25px; }
-.section-alt .section__head h3 { font-weight: 900; font-size: 21px; line-height: 1.05; color: #231f20; text-transform: uppercase;  }
+.section-alt .section__head h3 { font-weight: 900; font-size: 21px; line-height: 1.05; color: #231f20; text-transform: uppercase;  padding: 0 15px;
+}
 .section-alt .section__head i { margin-top: -13px; }
 .section-alt .section__head i + h3 { margin-top: 17px; }
 
@@ -1010,7 +1014,7 @@ word-wrap: normal;
 .article-content .cl-item > * { display: block; }
 .article-content .cl-item {  }
 
-.article-content .cl-item .cl-item-illust { width: 86px; height: 97px; /*background: #000;*/ margin: 0; position: absolute; top: 30px; left: 16px; }
+.article-content .cl-item .cl-item-photo { width: 86px; height: 97px; /*background: #000;*/ margin: 0; position: absolute; top: 30px; left: 16px; }
 
 .article-content .cl-item .cl-item-title { margin: 0 0 2px 100px; font-size: 20px; letter-spacing: 0.025em; position: relative; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; padding-top: 13px; }
 .article-content .cl-item .cl-item-title:after { content: ''; position: absolute; top: 0; left: 0; width: 34px; height: 6px; background: #689598; }
@@ -1022,18 +1026,7 @@ word-wrap: normal;
 .article-content .cl-item .cl-item-email a:after { display: none; }
 .article-content .cl-item .cl-item-phone {  font-size: 12px; line-height: 1.67;  margin: 30px 0 0;   }
 .article-content .cl-item .cl-item-phone a:after { display: none; }
-
-
-
 .article-content .cl-item + .cl-item { margin-top: -1px; }
-
-
-
-
-
-
-
-
 
 /*  Article NAvigation  */
 .article-navigation { margin: 0 -15px; margin-bottom: 55px; }
@@ -1123,7 +1116,7 @@ word-wrap: normal;
 .main-navigation .widget-text + .widget-text { display: none; }*/
 
 
-.main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; margin-top: -42px; }
+.main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; /*margin-top: -42px;*/ }
 .main-navigation #widgetMobileLinkOpenCap a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; text-transform: none; }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o:before { display: none; }
@@ -1151,15 +1144,13 @@ word-wrap: normal;
     background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(35, 31, 32,0.65) 100%);
 }
 
-.quicklinks-navigation:before { content: ''; float: left; background: url(images/exposer.jpg) no-repeat 0 0; width: 73px; height: 29px; margin-right: 10px; }
+/*.quicklinks-navigation:before { content: ''; float: left; background: url(images/exposer.jpg) no-repeat 0 0; width: 73px; height: 29px; margin-right: 10px; }*/
 .quicklinks-navigation ul { display: flex; overflow-x: auto; padding-right: 10px; }
 .quicklinks-navigation li { border: none !important; position: relative; }
 .quicklinks-navigation li + li { margin-left: 18px; padding-left: 16px; }
 .quicklinks-navigation li + li:after { content: ''; position: absolute; top: 50%; left: 0; padding: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 1px; height: 9px; background: #918f90;  }
 .quicklinks-navigation a { font-weight: 400; padding: 0 !important; text-transform: uppercase; font-size: 11px; letter-spacing: 0.04em; }
 .quicklinks-navigation a span { color: #fff; white-space: nowrap; display: inline-block; padding: 7px 0;  }
-
-
 
 
 /* ------------------------------------------------------------ *\
@@ -1247,3 +1238,18 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 
 .site-footer .footer__body + .footer__aside { margin-top: 45px; }
 .site-footer .footer__body + .footer__aside ul { justify-content: center; }
+
+
+/* ------------------------------------------------------------ *\
+    Ajax search
+\* ------------------------------------------------------------ */
+.tt-dropdown-menu .typeahead-section-name {color: #161616; padding-top: 15px; border-bottom: 0; }
+.tt-dropdown-menu {width:300px!important; margin-left: 45px!important; z-index: 22; margin-top: 20px!important; }
+.tt-dropdown-menu a {color: #161616; font-weight: 300; text-decoration:none;}
+.tt-dropdown-menu span.tt-suggest-text {text-decoration: none; }
+.tt-dropdown-menu .tt-dropdown-contents { padding: 0 17px; }
+.tt-dropdown-menu .tt-text-intro {	display: none; }
+.tt-dropdown-menu strong.tt-highlight {font-weight: 800!important; color: #161616;}
+.tt-suggestion a:focus strong.tt-highlight, .tt-suggestion a:hover strong.tt-highlight {color: #161616;}
+.tt-suggestion a { text-decoration: none!important; }
+.tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #9cb4be; color: #161616; }
