@@ -1075,7 +1075,9 @@ word-wrap: normal;
 .main-navigation .icon-home:after { content: ''; display: inline-block; background-image: url(images/ico-home.png); width: 14px; height: 17px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 .main-navigation .icon-home:before { display: none; }
 
-.main-navigation .mn-menu { background: none; border: 1px solid #fff; padding-bottom: 52px; }
+.main-navigation .mn-menu { background: none; border: 1px solid #fff; padding-bottom: 0; }
+.main-navigation .mn-menu {display: flex; flex-direction: column; }
+  
 .main-navigation .mn-link { padding: 11px 18px 8px; font-size: 16px; font-weight: 700; letter-spacing: 0.1em; }
 .main-navigation .mn-item-lvl-1 { background: none; }
 
@@ -1084,8 +1086,13 @@ word-wrap: normal;
 .main-navigation li { border: none; position: relative; min-height: 7px; }
 .main-navigation li:before { content: ''; position: absolute; bottom: 0; left: 0; width: 30px; height: 1px; background: rgba(255, 255, 255, 0.3);  }
 
-.main-navigation .mn-menu > li:first-child:before { width: 58px; }
-.main-navigation .mn-menu > li:first-child span { padding-top: 7px; display: none; }
+/*.main-navigation .mn-menu > li:first-child:before { width: 58px; }
+.main-navigation .mn-menu > li:first-child span { padding-top: 7px; display: none; }*/
+
+.main-navigation .mn-menu > li.mn-menu-item-avecpicto { width: 58px; padding: 10px 0; }
+.main-navigation .mn-menu > li:mn-menu-item-avecpicto a span.mn-link-text { padding-top: 7px; display: none; }
+.mn-menu-item-avecpicto .mn-link-text { display: none; }
+
 .main-navigation .mn-menu > li:first-child .mn-link { padding: 20px 14px 23px;  }
 
 .main-navigation .mn-menu > li:nth-child(2):before { width: 46px; }
@@ -1116,7 +1123,7 @@ word-wrap: normal;
 .main-navigation .widget-text + .widget-text { display: none; }*/
 
 
-.main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; /*margin-top: -42px;*/ }
+.main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; /*margin-top: -42px;*/ ; order: 99; }
 .main-navigation #widgetMobileLinkOpenCap a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; text-transform: none; }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o:before { display: none; }
@@ -1253,3 +1260,5 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .tt-suggestion a:focus strong.tt-highlight, .tt-suggestion a:hover strong.tt-highlight {color: #161616;}
 .tt-suggestion a { text-decoration: none!important; }
 .tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #9cb4be; color: #161616; }
+
+
