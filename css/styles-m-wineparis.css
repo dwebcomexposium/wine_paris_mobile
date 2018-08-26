@@ -637,8 +637,8 @@ word-wrap: normal;
 .cc-cookies .btn-alt { padding: 12px 19px 10px; margin: 24px 0 0;  }*/
 
 .cc-cookies { position: fixed; bottom: 0; top: auto; background: #231f20; font-size: 13px; line-height: 1.54em; letter-spacing: 0.1em;  text-align: center; color: #fff; padding: 25px 35px 17px; }
-.cc-cookies .cc-cookie-accept { position: relative; width: 174px; text-transform: uppercase; border: 1px solid #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.2em; margin: 20px auto 0!important; background: #231f20; padding: 10px 56px 10px 10px; }
-.cc-cookies .cc-cookie-accept:after { position: absolute; content: ''; background: url(../img2/icons/ico-arrow-white.png) no-repeat 0 0; width: 28px; height: 11px; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); right: 20px; }
+.cc-cookies .cc-cookie-accept { position: relative; width: 174px; text-transform: uppercase; border: 1px solid #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.2em; margin: 20px auto 0!important; background: #231f20; padding: 10px; }
+/*.cc-cookies .cc-cookie-accept:after { position: absolute; content: ''; background: url(../img2/icons/ico-arrow-white.png) no-repeat 0 0; width: 28px; height: 11px; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); right: 20px; }*/
 .cc-cookies .cc-cookie-link { color: inherit; text-decoration: none; }
 .cc-cookies .inside { text-align: center; }
 /* ------------------------------------------------------------ *\
@@ -648,17 +648,17 @@ word-wrap: normal;
 
 #zone1 { position: relative; }
 
-#zone1 .links-right { position: absolute; bottom: 166px; left: 50%; z-index: 20; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 304px; }
+#zone1 .links-right { position: absolute; bottom: 150px; left: 50%; z-index: 20; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 304px; }
 
-.links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 152px; height: 112px; font-size: 16px; line-height: 1.06; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.075em; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; }
+.links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 152px; height: 95px; font-size: 15px; line-height: 1.09; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.075em; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; }
 .links-right .btn-primary:after { content: ''; position: absolute; top: 50%; left: 100%; -webkit-transform: translateX(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 8px; border-color: transparent transparent transparent #231f20; }
 .links-right .btn-primary span { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
 .links-right li { display: inline-block; float: left;  }
-.links-right li + li .btn-primary  { background: #fff; color: #231f20; text-transform: none; font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 15px; letter-spacing: 0; line-height: 1.07; z-index: 5; }
+.links-right li + li .btn-primary  { background: #fff; color: #231f20; text-transform: none; font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.07; z-index: 5; }
 .links-right li + li .btn-primary:after { display: none; }
 .links-right a:hover span { -webkit-transform: translateY(-7px); -ms-transform: translateY(-7px); -o-transform: translateY(-7px); transform: translateY(-7px); }
 
-@media(max-width: 374px){
+@media (max-width: 374px) {
     #zone1 .links-right { width: 282px; }
     .links-right .btn-primary { width: 141px; height: 75px; margin-bottom: -10px; }
 
@@ -823,32 +823,32 @@ word-wrap: normal;
     Partner
 \* ------------------------------------------------------------ */
 
-.partner .front  { background: url(../wine_paris_mobile_git/images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
-.partner .front  .inside { padding: 0; }
+.front .partner  { background: url(../wine_paris_mobile_git/images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
+.front .partner  .inside { padding: 0; }
 
-.partner .front  .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
-.partner .front  .main-title-with-link .link-view-all { position: absolute; bottom: 73px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); border: 1px solid #fff; color: #fff; font-weight: 500; letter-spacing: 0.1em; font-size: 12px; text-transform: uppercase; background: none !important; padding: 8px 20px; min-width: 277px; }
-.partner .front  .main-title-with-link .link-view-all i { display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 17px; height: 10px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 12px; }
-.partner .front  .main-title-with-link .link-view-all i:before { display: none; }
+.front .partner  .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
+.front .partner  .main-title-with-link .link-view-all { position: absolute; bottom: 73px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); border: 1px solid #fff; color: #fff; font-weight: 500; letter-spacing: 0.1em; font-size: 12px; text-transform: uppercase; background: none !important; padding: 8px 20px; min-width: 277px; }
+.front .partner  .main-title-with-link .link-view-all i { display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 17px; height: 10px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 12px; }
+.front .partner  .main-title-with-link .link-view-all i:before { display: none; }
 
-.partner .front  .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 28px; line-height: 1; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
-.partner .front  .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-
-
-.partner .front  .slider { padding: 0; }
-.partner .front  .slider > * { opacity: 1; }
-.partner .front  .slider-item { padding: 0 10px; width: 220px !important; opacity: 1 !important; }
-.partner .front  .slider-item a { display: block; width: 200px; height: 100px; background: #fff; position: relative; }
-.partner .front  .slider-item img { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
-.partner .front  .slider-item a:hover img { -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
-.partner .front  .slider-item .pg-item-illust { margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: initial; }
-.partner .front  .pg-item-title { display: none; }
-.partner .front  .slider-pagin { display: none; }
+.front .partner  .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 28px; line-height: 1; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
+.front .partner  .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
-.partner .front  + .links-right { width: 310px; margin: 49px auto 0; }
-.partner .front  + .links-right:after { content: ''; display: table; clear: both;  }
-.partner .front  + .links-right .btn-primary { width: 152px; border: 1px solid #231f20; padding: 0 5px; }
+.front .partner  .slider { padding: 0; }
+.front .partner  .slider > * { opacity: 1; }
+.front .partner  .slider-item { padding: 0 10px; width: 220px !important; opacity: 1 !important; }
+.front .partner  .slider-item a { display: block; width: 200px; height: 100px; background: #fff; position: relative; }
+.front .partner  .slider-item img { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
+.front .partner  .slider-item a:hover img { -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+.front .partner  .slider-item .pg-item-illust { margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: initial; }
+.front .partner  .pg-item-title { display: none; }
+.front .partner  .slider-pagin { display: none; }
+
+
+.front .partner  + .links-right { width: 310px; margin: 49px auto 0; }
+.front .partner  + .links-right:after { content: ''; display: table; clear: both;  }
+.front .partner  + .links-right .btn-primary { width: 152px; border: 1px solid #231f20; padding: 0 5px; }
 
 /* ------------------------------------------------------------ *\
     Secials Def
@@ -914,7 +914,7 @@ word-wrap: normal;
 .article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
 
 .article-title .inside { padding: 0; }
-.article-title .inside .at-main-title  { text-transform: uppercase; text-align: center; font-size: 21px; line-height: 1.29; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; }
+.article-title .inside .at-main-title, .partner-list h1  { text-transform: uppercase; text-align: center; font-size: 21px; line-height: 1.29; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; border: 0; }
 .article-title .inside img { order: 1; width: 100%; }
 .article-title .inside .at-content { position: relative; padding-bottom: 23px; }
 .article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
@@ -936,7 +936,7 @@ word-wrap: normal;
 
 
 .article-content figure { width: 100%; max-width: 100%; border: none; padding: 0; margin: 0; text-align: right; }
-.article-content figure img { width: 100%; }
+.article-content figure img { width: 100%; padding-bottom: 10px; }
 .article-content figure figcaption { display: none; }
 .article-content figure small { display: none; font-size: 11px; color: #231f20; margin: 12px 0 0; letter-spacing: 0.05em; font-family: 'Montserrat', sans-serif; font-weight: 400; opacity: .5; padding-bottom: 10px; }
 .article-content figure.center { position: relative; }
@@ -1082,8 +1082,7 @@ word-wrap: normal;
 .main-navigation li { border: none; position: relative; min-height: 7px; }
 .main-navigation li:before { content: ''; position: absolute; bottom: 0; left: 0; width: 30px; height: 1px; background: rgba(255, 255, 255, 0.3);  }
 
-/*.main-navigation .mn-menu > li:first-child:before { width: 58px; }
-.main-navigation .mn-menu > li:first-child span { padding-top: 7px; display: none; }*/
+
 
 .main-navigation .mn-menu > li.mn-menu-item-avecpicto { width: 58px; padding: 10px 0; }
 .main-navigation .mn-menu > li:mn-menu-item-avecpicto a span.mn-link-text { padding-top: 7px; display: none; }
@@ -1109,14 +1108,6 @@ word-wrap: normal;
 .main-navigation .mn-menu li ul .mn-link-text { padding-left: 4px; }
 .main-navigation .mn-menu li ul .mn-link-text:before { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); width: 7px; height: 2px; top: 10px;  }
 
-
-/*.main-navigation .widget-text { display: block; margin-left: 20px; margin-top: -42px; }
-.main-navigation .widget-text a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; }
-.main-navigation .widget-text .cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
-.main-navigation .widget-text .cap-icon-user-circle-o:before { display: none; }
-
-
-.main-navigation .widget-text + .widget-text { display: none; }*/
 
 
 .main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; /*margin-top: -42px;*/ ; order: 99; }
@@ -1257,5 +1248,20 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .tt-suggestion a { text-decoration: none!important; }
 .tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #9cb4be; color: #161616; }
 
+/*Partners*/
+
+.js .partner-list .js-pl.is-visible { display: flex; flex-wrap: wrap; justify-content: center; }
+body.partner .pl-item-group {border: 0; }
+
+body.partner .pl-item-group .pl-item {width: 125px; border: 0; box-shadow: 0 0 20px rgba(68, 68, 68, 0.15); text-align: center; margin: 10px 20px 15px 0; vertical-align: middle; height: 125px; }
+body.partner .pl-item-group .pl-item img {max-width: 100px; }
+body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item-read-more  {display: none; }
+
+.partner-list [class^="btn"], .partner-list .btn { font-family: 'Brandon Grotesque', sans-serif; color: #231f20; }
+.pl-subtitle {border: 0; }
+.pl-trigger .icon {color: #689598; }
+
+/*div*/
+.mn-menu-submenu .mn-link.is-active {background: inherit; }
 
 .article-wrapper .at-theme, .at-publication {display: none; }
