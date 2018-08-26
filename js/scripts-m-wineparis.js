@@ -118,6 +118,128 @@
 
 
 
+	}
+	
+	function() {
+	
+		$('.sb-menu-trigger').on('click', function() {
+			$(this).toggleClass('active')
+		})
+	
+	
+		if ( $('.links-espaces').length ) {
+			$('.links-espaces').clone(true).appendTo('.main-navigation')
+		}
+		
+		if ( $('#countdown').length ) {
+			
+			if ($('html').attr('lang') == 'fr') {
+			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
+				var $this = $(this).html(event.strftime(''
+						    + '<li><span>%D</span> <span>jours%!d</span></li>'
+						    + '<li><span>%H</span> <span>heures%!d</span></li>'
+						    + '<li><span>%M</span> <span>minutes%!d</span></li>'
+					))
+			});
+			} else {
+			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
+				var $this = $(this).html(event.strftime(''
+						    + '<li><span>%D</span> <span>days%!d</span></li>'
+						    + '<li><span>%H</span> <span>hours%!d</span></li>'
+						    + '<li><span>%M</span> <span>minutes%!d</span></li>'
+					))
+			});
+			}
+			
+		}
+	
+		if ( $('.evenements').length ) {
+			$('.evenements .list-grids-with-pagin').append('<div class="slider-pagination" id="slider-pagination" />')
+	
+			$('.evenements .grid-la-list').carouFredSel({
+				width: '100%',
+				circular: true,
+				infinite: true,
+				responsive: true,
+				swipe: true,
+				pagination: {
+					container       : "#slider-pagination"
+				},
+				auto: {
+					play: false,
+					timeoutDuration: 0
+				},
+				items: {
+					visible: 1
+				}
+			});
+		}
+	
+		if ( $('.observatoire').length ) {
+			$('.observatoire .list-grids-with-pagin').append('<div class="slider-pagination" id="slider-pagination1" />')
+	
+			$('.observatoire .grid-la-list img').on('load', function() {
+				$('.observatoire .grid-la-list').carouFredSel({
+					width: '100%',
+					circular: true,
+					infinite: true,
+					responsive: true,
+					swipe: true,
+					pagination: {
+						container       : "#slider-pagination1"
+					},
+					auto: {
+						play: false,
+						timeoutDuration: 0
+					},
+					items: {
+						visible: 1
+					}
+				});
+			})
+		}
+	
+		if ( $('.partner-gallery .slider-content') ) {
+			$('.partner-gallery .slider-content').carouFredSel({
+				width: '100%',
+				circular: true,
+				infinite: true,
+				responsive: true,
+				auto: {
+					play: true,
+					timeoutDuration: 0
+				},
+				items: {
+					visible: 9
+				},
+				scroll: {
+					duration: 60000,
+					easing: 'linear'
+				}
+			});
+		}
+	
+		//Caroufredsel
+		if ( $('.slider-alt .slider__slides').length ) {
+			$('.slider-alt').append('<div class="slider-pagination" id="slider-pagination2" />')
+	
+			$('.slider-alt .slider__slides').carouFredSel({
+				items: 1,
+				circular: true,
+				infinite: true,
+				swipe: true,
+				pagination: {
+					container : "#slider-pagination2"
+				},
+				auto: {
+					// play: true,
+					// timeoutDuration: 7000
+				}
+			});
+		}
+	
+	
+	
 	})
 
 	$win.on('load', function() {
