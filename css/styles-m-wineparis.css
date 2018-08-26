@@ -68,11 +68,8 @@ body { min-width: 320px; font-family: 'Brandon Grotesque', sans-serif; color: #2
 *:after,
 *:before { box-sizing: border-box; }
 
-body.article_list .wrapper { padding-top: 200px; position: relative; }
-body.article_list .wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 182px; background: url(images/intro-small.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
-
-body.article .wrapper { padding-top: 200px; position: relative; overflow: hidden; }
-body.article .wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 182px; background: url(images/intro-small.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
+body:not(.front) { padding-top: 200px; position: relative; }
+body:not(.front) .wrapper:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 182px; background: url(images/intro-small.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; }
 
 body.exposer { padding-top: 182px; position: relative; }
 body.exposer .wrapper { overflow: hidden; }
@@ -85,7 +82,6 @@ word-wrap: normal;
     -ms-hyphens: none;
         hyphens: none;
 }
-
 
 .quicklinks-navigation .ql-item-link:focus,
 .quicklinks-navigation .ql-item-link:hover, .mn-link.is-active { background: inherit; }
@@ -827,32 +823,32 @@ word-wrap: normal;
     Partner
 \* ------------------------------------------------------------ */
 
-.partner { background: url(../wine_paris_mobile_git/images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
-.partner .inside { padding: 0; }
+.partner .front  { background: url(../wine_paris_mobile_git/images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
+.partner .front  .inside { padding: 0; }
 
-.partner .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
-.partner .main-title-with-link .link-view-all { position: absolute; bottom: 73px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); border: 1px solid #fff; color: #fff; font-weight: 500; letter-spacing: 0.1em; font-size: 12px; text-transform: uppercase; background: none !important; padding: 8px 20px; min-width: 277px; }
-.partner .main-title-with-link .link-view-all i { display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 17px; height: 10px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 12px; }
-.partner .main-title-with-link .link-view-all i:before { display: none; }
+.partner .front  .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
+.partner .front  .main-title-with-link .link-view-all { position: absolute; bottom: 73px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); border: 1px solid #fff; color: #fff; font-weight: 500; letter-spacing: 0.1em; font-size: 12px; text-transform: uppercase; background: none !important; padding: 8px 20px; min-width: 277px; }
+.partner .front  .main-title-with-link .link-view-all i { display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 17px; height: 10px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-left: 12px; }
+.partner .front  .main-title-with-link .link-view-all i:before { display: none; }
 
-.partner .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 28px; line-height: 1; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
-.partner .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-
-
-.partner .slider { padding: 0; }
-.partner .slider > * { opacity: 1; }
-.partner .slider-item { padding: 0 10px; width: 220px !important; opacity: 1 !important; }
-.partner .slider-item a { display: block; width: 200px; height: 100px; background: #fff; position: relative; }
-.partner .slider-item img { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
-.partner .slider-item a:hover img { -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
-.partner .slider-item .pg-item-illust { margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: initial; }
-.partner .pg-item-title { display: none; }
-.partner .slider-pagin { display: none; }
+.partner .front  .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 28px; line-height: 1; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
+.partner .front  .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
-.partner + .links-right { width: 310px; margin: 49px auto 0; }
-.partner + .links-right:after { content: ''; display: table; clear: both;  }
-.partner + .links-right .btn-primary { width: 152px; border: 1px solid #231f20; padding: 0 5px; }
+.partner .front  .slider { padding: 0; }
+.partner .front  .slider > * { opacity: 1; }
+.partner .front  .slider-item { padding: 0 10px; width: 220px !important; opacity: 1 !important; }
+.partner .front  .slider-item a { display: block; width: 200px; height: 100px; background: #fff; position: relative; }
+.partner .front  .slider-item img { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
+.partner .front  .slider-item a:hover img { -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+.partner .front  .slider-item .pg-item-illust { margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: initial; }
+.partner .front  .pg-item-title { display: none; }
+.partner .front  .slider-pagin { display: none; }
+
+
+.partner .front  + .links-right { width: 310px; margin: 49px auto 0; }
+.partner .front  + .links-right:after { content: ''; display: table; clear: both;  }
+.partner .front  + .links-right .btn-primary { width: 152px; border: 1px solid #231f20; padding: 0 5px; }
 
 /* ------------------------------------------------------------ *\
     Secials Def
@@ -1262,3 +1258,4 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .tt-suggestion a:focus, .tt-suggestion a:hover { text-decoration: none; background: #9cb4be; color: #161616; }
 
 
+.article-wrapper .at-theme, .at-publication {display: none; }
