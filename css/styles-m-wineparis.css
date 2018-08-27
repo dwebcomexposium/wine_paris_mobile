@@ -942,6 +942,9 @@ word-wrap: normal;
 .article-content figure.center { position: relative; }
 .article-content figure.center:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
+body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 10px 0; }
+
+
 .article-content p { letter-spacing: 0.05em; }
 .article-content p:after { content: ''; display: table; clear: both;  }
 
@@ -963,7 +966,6 @@ word-wrap: normal;
 .article-content a[name="eztoc_2_2_3_1"] +  h4  { max-width: 300px; text-align: center; margin: 22px auto 53px;  }
 
 .article-content .focus1 { line-height: 1; position: relative; margin-top: 34px; }
-.article-content .focus1 a + a { display: none; }
 .article-content .focus1 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: inline-block; padding: 13px 50px 0 17px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; z-index: 10; background: #ef662f; min-height: 39px; line-height: 1.2; }
 .article-content .focus1 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .article-content .focus1 a:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 39px; z-index: -1; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
@@ -976,17 +978,18 @@ word-wrap: normal;
 .article-content .focus1 + .focus1 a:hover:before { background-image: url(images/ico-arrow-white-right.png); }
 
 
-.article-content .focus2 { margin-top: 21px; width: 185px; border: 1px solid #231f20; line-height: 1; position: relative;  }
-.article-content .focus2:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 35px; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
+.article-content .focus2 { line-height: 1; position: relative; margin-top: 34px; }
+.article-content .focus2 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: inline-block; padding: 13px 50px 0 17px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #231f20; z-index: 10; background: #fff; min-height: 39px; line-height: 1.2; border: 1px solid #231f20;}
+.article-content .focus2 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.article-content .focus2 a:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 39px; z-index: -1; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
+/*.article-content .focus2 a:hover:after { width: 100%; }*/
 
-.article-content .focus2:hover:after { width: 100%; }
-.article-content .focus2:hover a { color: #fff;  }
-.article-content .focus2:hover a:before  { background-image: url(images/ico-arrow-white-right.png); }
+.article-content .focus2 + .focus2  { margin-top: 21px; background: none; }
+.article-content .focus2 + .focus2 a { border: 1px solid #231f20; color: #231f20; min-height: 39px; background: none; }
+.article-content .focus2 + .focus2 a:before { background-image: url(images/ico-arrow-right.png);  }
+.article-content .focus2 + .focus2 a:hover { color: #fff; }
+.article-content .focus2 + .focus2 a:hover:before { background-image: url(images/ico-arrow-right.png); }
 
-.article-content .focus2 a:after { display: none; }
-.article-content .focus2 a + a { display: none; }
-.article-content .focus2 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: block; padding: 13px 17px 10px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #231f20; z-index: 10; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s;  }
-.article-content .focus2 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
 
 
 .article-content .style4 { margin: 26px 0 0;  }
@@ -1028,7 +1031,7 @@ word-wrap: normal;
 .article-navigation { margin: 0 -15px; margin-bottom: 55px; }
 .article-navigation img { display: none; }
 .article-navigation ul { justify-content: center; display: flex; position: relative; }
-.article-navigation ul:after { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: #fff; }
+.article-navigation .an-item-next:before { content: ''; position: absolute; top: 0; bottom: 0; left: 0; width: 1px; background: #fff; z-index: 200; }
 
 .article-navigation ul li { flex: 0 0 50%; max-width: 50%; margin: 0; }
 .article-navigation ul li a { height: 153px; background: #c2b49c; color: #fff;  text-align: left; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; }
