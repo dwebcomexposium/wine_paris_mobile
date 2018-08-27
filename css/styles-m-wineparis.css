@@ -1134,7 +1134,7 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 
 .quicklinks-navigation { margin: 0; background: #231f20; padding: 0 15px; position: relative; }
 
-.quicklinks-navigation:after { content: ''; position: absolute; top: 0; right: 15px; height: 100%; width: 23px; z-index: 2; pointer-events: none; }
+.quicklinks-navigation:after { content: ''; position: absolute; top: 0; right: 15px; height: 90%; width: 23px; z-index: 2; pointer-events: none; }
 .quicklinks-navigation:after {
     background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(35, 31, 32,0.65) 100%); color: rgba(35, 31, 32, 0.65);
     background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(35, 31, 32,0.65) 100%);
@@ -1265,6 +1265,6 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 .pl-trigger .icon {color: #689598; }
 
 /*div*/
-.mn-menu-submenu .mn-link.is-active {background: inherit; }
+.mn-menu-submenu .mn-link.is-active, .quicklinks-navigation .ql-item-link.is-active {background: inherit; }
 
 .article-wrapper .at-theme, .at-publication {display: none; }
