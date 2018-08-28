@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------ *\
-	Fonts
+    Fonts
 \* ------------------------------------------------------------ */
 
 @font-face {
@@ -149,13 +149,13 @@ word-wrap: normal;
 
 
 /* ------------------------------------------------------------ *\
-	Wrapper
+    Wrapper
 \* ------------------------------------------------------------ */
 
 .wrapper { padding: 0; }
 
 /* ------------------------------------------------------------ *\
-	Logo
+    Logo
 \* ------------------------------------------------------------ */
 
 .logo { display: inline-block; background: url(images/logo.png) no-repeat 0 0; width: 104px; height: 145px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
@@ -250,7 +250,7 @@ word-wrap: normal;
 
 
 /* ------------------------------------------------------------ *\
-	Lang Switcher
+    Lang Switcher
 \* ------------------------------------------------------------ */
 
 .lang-switcher { margin: 0; background: none; border: 1px solid #fff; position: absolute; top: 113px; right: 15px; z-index: 999;  }
@@ -258,7 +258,7 @@ word-wrap: normal;
 .lang-switcher button:after { border-color: #fff transparent transparent transparent; margin: 0 0 0 -1px; position: relative; left: 4px;  }
 
 /* ------------------------------------------------------------ *\
-	Widget My Selection
+    Widget My Selection
 \* ------------------------------------------------------------ */
 
 .widget-my-selection { width: 50px; height: 48px; border: 1px solid #fff; position: absolute !important; top: 66px; right: 15px; z-index: 999;  }
@@ -333,9 +333,9 @@ word-wrap: normal;
 .la-slider .slider-pagin { bottom: 44px; }
 .la-slider .slider-pagin-btn { display: none; }
 
-.la-slider .slider-pagin-nb span { width: 10px; height: 10px; border-radius: 50%; background: none; border: 1px solid #fff; -webkit-transition: background .4s; -o-transition: background .4s; transition: background .4s; }
-.la-slider .slider-pagin-nb span + span { margin-left: 20px; }
-.la-slider .slider-pagin-nb .is-active { background: #fff; }
+.la-slider .slider-paging a { width: 10px; height: 10px; border-radius: 50%; background: none; border: 1px solid #fff; -webkit-transition: background .4s; -o-transition: background .4s; transition: background .4s; display: inline-block; }
+.la-slider .slider-paging a + a { margin-left: 20px; }
+.la-slider .slider-paging .selected { background: #fff; }
 
 
 .la-slider .slider-item:nth-child(1) .la-item-content { background: #ef662f; }
@@ -350,12 +350,28 @@ word-wrap: normal;
 .la-slider .slider-item:nth-child(4) .la-item-content { background: #bc2132; }
 .la-slider .slider-item:nth-child(4) .la-item-content .la-item-tag { color: #bc2132; }
 
+.la-slider .slider-item.color1 .la-item-content { background: #ef662f; }
+.la-slider .slider-item.color1 .la-item-content .la-item-tag { color: #ef662f; }
+
+.la-slider .slider-item.color2 .la-item-content { background: #f59331; }
+.la-slider .slider-item.color2 .la-item-content .la-item-tag { color: #f59331; }
+
+.la-slider .slider-item.color3 .la-item-content { background: #689598; }
+.la-slider .slider-item.color3 .la-item-content .la-item-tag { color: #689598; }
+
+.la-slider .slider-item.color4 .la-item-content { background: #bc2132; }
+.la-slider .slider-item.color4 .la-item-content .la-item-tag { color: #bc2132; }
+
 /* ------------------------------------------------------------ *\
     Pourquoi Exposer
 \* ------------------------------------------------------------ */
 
 .pourquoi-exposer { padding: 23px 0 10px; }
 .pourquoi-exposer .la-main-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 21px; line-height: 1.1; color: #231f20; margin: 0 0 -13px; padding: 0 15px;   }
+
+.pourquoi-exposer .slider-content { width: 100vw !important; }
+
+.pourquoi-exposer .slider-paging  { position: absolute; bottom: 50px; left: 0; width: 100%; z-index: 10; font-size: 0; text-align: center; }
 
 
 
@@ -456,7 +472,7 @@ word-wrap: normal;
 .slider-alt .slider-pagination .selected { background: #161616; }
 
 /* ------------------------------------------------------------ *\
-	Sub Menu Trigger
+    Sub Menu Trigger
 \* ------------------------------------------------------------ */
 
 .sb-menu-trigger { color: #fff; font-size: 24px; width: 50px; height: 48px; border: 1px solid #fff !important; position: fixed; top: 19px; right: 15px; left: auto; z-index: 9999; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
@@ -722,8 +738,9 @@ word-wrap: normal;
 .evenements .slider-pagination .selected { background: #161616; }
 
 
-.evenements .gla-item:nth-child(2) a .gla-item-content { background: #ef662f !important; }
-.evenements .gla-item:nth-child(3) a .gla-item-content { background: #bc2131 !important; }
+.evenements .gla-item + .gla-item { margin-top: 0; }
+.evenements .gla-item.color-2 a .gla-item-content { background: #ef662f !important; }
+.evenements .gla-item.color-3 a .gla-item-content { background: #bc2131 !important; }
 
 /* ------------------------------------------------------------ *\
     Observatorie
@@ -760,25 +777,25 @@ word-wrap: normal;
 .observatoire .slider-pagination a + a { margin-left: 19px; }
 .observatoire .slider-pagination .selected { background: #fff; }
 
-.observatoire .gla-item:nth-child(1) .gla-item-content { background: #c2b49c !important; }
-.observatoire .gla-item:nth-child(1) .gla-item-content:after { background-image: url(images/arrow-brown.png) !important; }
-.observatoire .gla-item:nth-child(1) .gla-item-content .la-item-tag { color: #c2b49c !important; }
+.observatoire .gla-item.color-1 .gla-item-content { background: #c2b49c !important; }
+.observatoire .gla-item.color-1 .gla-item-content:after { background-image: url(images/arrow-brown.png) !important; }
+.observatoire .gla-item.color-1 .gla-item-content .la-item-tag { color: #c2b49c !important; }
 
-.observatoire .gla-item:nth-child(2) .gla-item-content { background: #f59331 !important; }
-.observatoire .gla-item:nth-child(2) .gla-item-content:after { background-image: url(images/arrow-11.png);  }
-.observatoire .gla-item:nth-child(2) .gla-item-content .la-item-tag { color: #f59331 !important; }
+.observatoire .gla-item.color-2 .gla-item-content { background: #f59331 !important; }
+.observatoire .gla-item.color-2 .gla-item-content:after { background-image: url(images/arrow-11.png);  }
+.observatoire .gla-item.color-2 .gla-item-content .la-item-tag { color: #f59331 !important; }
 
-.observatoire .gla-item:nth-child(3) .gla-item-content { background: #ef662f !important; }
-.observatoire .gla-item:nth-child(3) .gla-item-content:after { background-image: url(images/arrow-111.png);  }
-.observatoire .gla-item:nth-child(3) .gla-item-content .la-item-tag { color: #ef662f !important; }
+.observatoire .gla-item.color-3 .gla-item-content { background: #ef662f !important; }
+.observatoire .gla-item.color-3 .gla-item-content:after { background-image: url(images/arrow-111.png);  }
+.observatoire .gla-item.color-3 .gla-item-content .la-item-tag { color: #ef662f !important; }
 
-.observatoire .gla-item:nth-child(4) .gla-item-content { background: #689598 !important; }
-.observatoire .gla-item:nth-child(4) .gla-item-content:after { background-image: url(images/arrow-122.png);  }
-.observatoire .gla-item:nth-child(4) .gla-item-content .la-item-tag { color: #689598 !important; }
+.observatoire .gla-item.color-4 .gla-item-content { background: #689598 !important; }
+.observatoire .gla-item.color-4 .gla-item-content:after { background-image: url(images/arrow-122.png);  }
+.observatoire .gla-item.color-4 .gla-item-content .la-item-tag { color: #689598 !important; }
 
-.observatoire .gla-item:nth-child(5) .gla-item-content { background: #bc2132 !important; }
-.observatoire .gla-item:nth-child(5) .gla-item-content:after { background-image: url(images/arrow-12.png);  }
-.observatoire .gla-item:nth-child(5) .gla-item-content .la-item-tag { color: #bc2132 !important; }
+.observatoire .gla-item.color-5 .gla-item-content { background: #bc2132 !important; }
+.observatoire .gla-item.color-5 .gla-item-content:after { background-image: url(images/arrow-12.png);  }
+.observatoire .gla-item.color-5 .gla-item-content .la-item-tag { color: #bc2132 !important; }
 
 /* ------------------------------------------------------------ *\
     Links Infos
@@ -1151,7 +1168,7 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 
 
 /* ------------------------------------------------------------ *\
-	Header
+    Header
 \* ------------------------------------------------------------ */
 
 header.site-banner { position: absolute; top: 0; left: 0; width: 100%; background: none; }
@@ -1245,7 +1262,7 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 .tt-dropdown-menu a {color: #161616; font-weight: 300; text-decoration:none;}
 .tt-dropdown-menu span.tt-suggest-text {text-decoration: none; }
 .tt-dropdown-menu .tt-dropdown-contents { padding: 0 17px; }
-.tt-dropdown-menu .tt-text-intro {	display: none; }
+.tt-dropdown-menu .tt-text-intro {  display: none; }
 .tt-dropdown-menu strong.tt-highlight {font-weight: 800!important; color: #161616;}
 .tt-suggestion a:focus strong.tt-highlight, .tt-suggestion a:hover strong.tt-highlight {color: #161616;}
 .tt-suggestion a { text-decoration: none!important; }
