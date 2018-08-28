@@ -931,7 +931,7 @@ word-wrap: normal;
 .article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
 
 .article-title .inside { padding: 0; }
-.article-title .inside .at-main-title, .partner-list h1  { text-transform: uppercase; text-align: center; font-size: 21px; line-height: 1.29; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; border: 0; }
+.article-title .inside .at-main-title, .partner-list h1, .search h1  { text-transform: uppercase; text-align: center; font-size: 21px; line-height: 1.29; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; border: 0; }
 .article-title .inside img { order: 1; width: 100%; }
 .article-title .inside .at-content { position: relative; padding-bottom: 23px; }
 .article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
@@ -941,16 +941,10 @@ word-wrap: normal;
 
 .article-intro + .article-content { margin-top: 14px; }
 
-
-
-
 .article-content { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 14px; line-height: 1.79; letter-spacing: 0.02em; padding: 0 15px;  }
 .article-content a { display: inline-block; position: relative; color: #231f20; text-decoration: none; }
 .article-content a:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: #ef662f; transition: width .4s; }
 .article-content h2 { clear: both; margin: 0 0 19px; border: none; text-align: center; font-weight: 700; font-size: 22px; line-height: 1.23; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; letter-spacing: 0.025em; padding: 0; }
-
-
-
 
 .article-content figure { width: 100%; max-width: 100%; border: none; padding: 0; margin: 0; text-align: right; }
 .article-content figure img { width: 100%; padding-bottom: 10px; }
@@ -961,10 +955,8 @@ word-wrap: normal;
 
 body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 10px 0; }
 
-
 .article-content p { letter-spacing: 0.05em; }
 .article-content p:after { content: ''; display: table; clear: both;  }
-
 
 .article-content blockquote  { margin: 50px 0 21px; padding: 57px 0 0; background: none; color: #bc2131; font-family: 'Brandon Grotesque', sans-serif; font-weight: 400; font-size: 20px; line-height: 1.35; text-transform: uppercase; letter-spacing: 0.25em; text-align: center; position: relative; }
 .article-content blockquote:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-arrow-red.png) no-repeat 0 0; width: 18px; height: 28px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
@@ -994,7 +986,6 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 .article-content .focus1 + .focus1 a:hover { color: #fff; }
 .article-content .focus1 + .focus1 a:hover:before { background-image: url(images/ico-arrow-white-right.png); }
 
-
 .article-content .focus2 { line-height: 1; position: relative; margin-top: 34px; }
 .article-content .focus2 a { font-family: 'Brandon Grotesque', sans-serif; position: relative; display: inline-block; padding: 13px 50px 0 17px; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #231f20; z-index: 10; background: #fff; min-height: 39px; line-height: 1.2; border: 1px solid #231f20;}
 .article-content .focus2 a:before { content: ''; display: inline-block; background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 18px; height: 9px; position: absolute; top: 15px; right: 20px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
@@ -1006,9 +997,6 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 .article-content .focus2 + .focus2 a:before { background-image: url(images/ico-arrow-right.png);  }
 .article-content .focus2 + .focus2 a:hover { color: #fff; }
 .article-content .focus2 + .focus2 a:hover:before { background-image: url(images/ico-arrow-right.png); }
-
-
-
 .article-content .style4 { margin: 26px 0 0;  }
 .article-content .style4 a { display: inline-block; font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; padding-left: 49px; }
 .article-content .style4 a:after { content: ''; position: absolute; top: 50%; left: 0;  width: 36px; height: 36px; background: #ef662f; border-radius: 50%; margin-bottom: -7px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
@@ -1053,8 +1041,6 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 .article-navigation ul li { flex: 0 0 50%; max-width: 50%; margin: 0; }
 .article-navigation ul li a { height: 153px; background: #c2b49c; color: #fff;  text-align: left; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; }
 
-
-
 .article-navigation .an-item-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 13px; line-height: 1.23; text-transform: uppercase; letter-spacing: 0.065em;  }
 .article-navigation .an-item-content { padding: 0 15px; z-index: 10; width: 100%; margin-top: 11px; }
 .article-navigation .an-item-publication { display: none;  }
@@ -1069,12 +1055,6 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 
 .article-navigation .an-item-next:after { background-image: url(images/link-next.png); right: 15px; }
 .article-navigation .an-item-previous:after { background-image: url(images/link-prev.png); left: 15px; }
-
-
-
-
-
-
 
 /* ------------------------------------------------------------ *\
     CxpmClientAccountWidget
@@ -1129,12 +1109,10 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 .main-navigation .mn-menu li ul .mn-link-text:before { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); width: 7px; height: 2px; top: 10px;  }
 
 
-
 .main-navigation #widgetMobileLinkOpenCap { display: block; margin-left: 0px; /*margin-top: -42px;*/ ; order: 99; }
 .main-navigation #widgetMobileLinkOpenCap a { color: #fff; font-size: 10px; font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 0.05em; text-transform: none; }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o { margin-right: 13px; display: inline-block; background: url(images/ico-user.png) no-repeat 0 0; width: 12px; height: 12px;  }
 .main-navigation .#widgetMobileLinkOpenCap span.cap-icon-user-circle-o:before { display: none; }
-
 
 
 .main-navigation .links-espaces { margin: 36px 0 0; text-align: center; }
@@ -1204,8 +1182,6 @@ header.site-banner .header-content h3 span { display: block; font-size: 9px; let
 header.site-banner .header-content .logo--small { width: 104px; height: 145px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
 header.site-banner .header-content .ico-date { background-image: url(../wine_paris_mobile_git/images/ico-dates.png); width: 73px; height: 110px;   }
 
-
-
 /* ------------------------------------------------------------ *\
     Footer
 \* ------------------------------------------------------------ */
@@ -1252,6 +1228,55 @@ header.site-banner .header-content .ico-date { background-image: url(../wine_par
 
 .site-footer .footer__body + .footer__aside { margin-top: 45px; }
 .site-footer .footer__body + .footer__aside ul { justify-content: center; }
+
+
+/* ------------------------------------------------------------ *\
+    Search page
+\* ------------------------------------------------------------ */
+
+.search-result { color: #161616; }
+.search-result h2 {  font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; font-size: 25x; color: #689598; text-transform: uppercase; line-height: 1; margin: 20px 0 5px; border-bottom: 1px solid #eaeaea; padding-bottom: 10px; }
+.search-result .sr-group-exponent div.sr-item-img { display: none; }
+.search-result h3 { line-height: 1.3; }
+
+.search-result h3 a:hover, .search-result h3 a { color: #161616; font-weight: 500; font-size: 17px; }
+.search-result mark.sr-term {color: #9e9b97; font-weight: 800; }
+.search-result small.sr-nb-result {font-size: 14px; font-weight: 300; text-transform: uppercase; letter-spacing: 0.05em; }
+.search-result .sr-group-exponent .sr-item-content {padding: 0; width: 100%; }
+.search-result .sr-group-exponent .sr-item-content p {margin: 0; }
+.search-result .sr-item {margin: 10px 0; display: block; border-bottom: none; padding-top: 15px; }
+.search-result .global-search-form { margin: 0 0 35px 0;  }
+.search-result .global-search-form:before { content: ''; position: absolute; width: 1px; height: 5px; top: 10px; right: -27px; background: #c2c5c9; }
+.search-result .global-search-form form { display: block; }
+.search-result .global-search-form form:after { content: ''; display: block; width: 100%; clear: both; }
+.search-result .gsf-fields { float: left; display: block; position: static; width: 100%; padding: 0; background: none; border: 7px solid #f0f0f2; }
+.search-result .gsf-fields label { display: none; }
+.search-result .gsf-fields input { float: left; width: 100%; height: 44px; min-height: 0; padding: 0 10px 0 20px;  font-size: 25px; font-style: italic; font-weight: 300; color: #161616; background: none; line-height: 30px;
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box; 
+}
+.search-result .gsf-fields input:focus { outline: 0; }
+.search-result .gsf-input-line:after { content: ''; display: block; width: 100%; clear: both; }
+.search-result  .gsf-submit-line { float: right; width: 18px; height: 18px; margin-top: -33px; margin-right: 25px; }
+.search-result  .gsf-input-line  { float: left; }
+.search-result .gsf-trigger { display: none; }
+
+
+/*.search-result.global-search-form  { margin-bottom: 32px; position: relative; padding: 0 38px;  }*/
+.search-result .global-search-form label { font-size: 0 !important; overflow: visible !important; clip: auto !important; top: 50% !important; left: 59px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); margin-top: -8px;  }
+.search-result .global-search-form .icon-search:before { display: none; }
+
+.search-result .global-search-form .gsf-fields { background: #fff; padding: 0; }
+.search-result .global-search-form .gsf-input { width: 100%; height: 48px; border: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; font-size: 17px; color: #231f20; padding: 0 20px 0 10px; font-size: 17px; font-style: normal;  }
+.search-result .global-search-form .gsf-submit-btn { width: 29px; height: 29px; background: #231f20; border-radius: 50%; font-weight: 900; font-size: 12px; padding: 0; line-height: 1; min-height: 0; margin-top: -10px; }
+.site-footer .global-search-form .gsf-submit-line { position: absolute; top: 50%; right: 50px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+
+.search-result .global-search-form .gsf-fields .gsf-input::-webkit-input-placeholder { font-style: normal !important; color: #656262 !important; font-size: 17px !important; font-weight: 500; letter-spacing: 0.05em; }
+.search-result .global-search-form .gsf-fields .gsf-input::-moz-placeholder { font-style: normal !important; color: #656262 !important; font-size: 17px !important; font-weight: 500; letter-spacing: 0.05em; }
+.search-result .global-search-form .gsf-fields .gsf-input:-ms-input-placeholder { font-style: normal !important; color: #656262 !important; font-size: 17px !important; font-weight: 500; letter-spacing: 0.05em; }
+.search-result .global-search-form .gsf-fields .gsf-input:-moz-placeholder { font-style: normal !important; color: #656262 !important; font-size: 17px !important; font-weight: 500; letter-spacing: 0.05em; }
+
 
 
 /* ------------------------------------------------------------ *\
