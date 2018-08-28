@@ -2,6 +2,39 @@
 	var $win = $(window);
 	var $doc = $(document);
 
+	function initHomepageSlider() {
+	    var $slider = $('.pourquoi-exposer .la-slider');
+	    var $clone = $slider.clone();
+	    var sliderArrow = '<a href="#" class="slider-next"/>';
+	    var sliderPaging = '<div class="slider-paging">';
+	    
+
+	    sliderPaging += '</div>';
+	    $slider.after($clone);
+	    var $slidesContainer = $clone.find('.slider-content');
+	    $clone.append(sliderArrow).append(sliderPaging);
+	    $slider.remove();
+	    $clone.find('.slider-paging a:first-child').addClass('active');
+	    
+	    $slidesContainer.carouFredSel({
+	        width: '100%',
+	        items: 1,
+	        swipe: {
+	            onTouch: true
+	        },
+	        auto: {
+	            play: true,
+	            timeoutDuration: 4000
+	        },
+	        scroll: {
+				duration: 500,
+				timeoutDuration: 2500
+			},
+	        infinite: true,
+	        pagination: ".pourquoi-exposer .slider-paging"
+	    });
+	}
+
 	$doc.ready(function() {
 
 		$('.sb-menu-trigger').on('click', function() {
@@ -32,6 +65,13 @@
 		}
 
 		if ( $('.evenements').length ) {
+			$('.list-articles').each( function (){
+				var i = 1;
+				$(this).find('.gla-item').each( function (){
+					$(this).addClass('color-'+ i );
+					i++;
+				})
+			})
 			$('.evenements .list-grids-with-pagin').append('<div class="slider-pagination" id="slider-pagination" />')
 
 			$('.evenements .grid-la-list').carouFredSel({
@@ -121,6 +161,17 @@
 	})
 
 	$win.on('load', function() {
+	    if ( $('.pourquoi-exposer').length ) {
+	    	
+	    	$('.pourquoi-exposer .la-item').each( function (i){
+	    		$(this).addClass('color'+ (i+1) );
+	    	})
+
+
+	    	initHomepageSlider()
+	    }
+
+
 		setTimeout(function() {
 			$('.intro-alt').addClass('animate-links')
 		}, 300);
@@ -158,6 +209,3 @@
 	})
 
 })(jQuery, window, document);
-
-
-
