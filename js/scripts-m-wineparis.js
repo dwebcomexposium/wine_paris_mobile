@@ -40,10 +40,6 @@
 		$('.sb-menu-trigger').on('click', function() {
 			$(this).toggleClass('active')
 		})
-
-//		if ( $('#cxpmClientAccountWidget').length ) {
-//			$('#cxpmClientAccountWidget .widget-text:first-child').clone(true).appendTo('.main-navigation')
-//		}
 		
 		if ( $('#widgetMobileLinkOpenCap').length ) {
 			$('#widgetMobileLinkOpenCap').clone(true).appendTo('.main-navigation')
@@ -53,8 +49,11 @@
 			$('.links-espaces').clone(true).appendTo('.main-navigation')
 		}
 
-
+		
+		//Countdown
 		if ( $('#countdown').length ) {
+			
+			if ($('html').attr('lang') == 'fr') {
 			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
 				var $this = $(this).html(event.strftime(''
 						    + '<li><span>%D</span> <span>jour%!d</span></li>'
@@ -62,7 +61,19 @@
 						    + '<li><span>%M</span> <span>minute%!d</span></li>'
 					))
 			});
+			} else {
+			$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
+				var $this = $(this).html(event.strftime(''
+						    + '<li><span>%D</span> <span>day%!d</span></li>'
+						    + '<li><span>%H</span> <span>hour%!d</span></li>'
+						    + '<li><span>%M</span> <span>minute%!d</span></li>'
+					))
+			});
+			}
+			
 		}
+		
+		
 
 		if ( $('.evenements').length ) {
 			$('.list-articles').each( function (){
