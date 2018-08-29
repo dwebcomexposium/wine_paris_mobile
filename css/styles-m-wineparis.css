@@ -926,7 +926,6 @@ word-wrap: normal;
 \* ------------------------------------------------------------ */
 
 .article-title { position: relative; margin: 9px 0 0; }
-.article-title:after { content: ''; position: absolute; bottom: 100%; left: 50%; width: 960px; height: 40px; background: #fff; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .article-title .inside { position: relative; display: flex; justify-content: space-between;flex-direction: column; }
 .article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
 
@@ -1013,18 +1012,21 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 
 
 .article-content .cl-content { margin: 0 -15px;  }
-.article-content .cl-item { border: 1px solid #231f20; border-left: none; border-right: none; margin: 0; padding: 0; position: relative; padding: 30px 0px 20px 16px; }
+.article-content .cl-item { border: 1px solid #231f20; border-left: none; border-right: none; margin: 0; padding: 0; position: relative; padding: 30px 0px 20px 16px; margin-left: ;
+}
 
 .article-content .cl-item > * { display: block; }
 .article-content .cl-item {  }
+.article-content .cl-item-content {margin-left: 110px;  }
 
-.article-content .cl-item .cl-item-photo { width: 86px; height: 97px; /*background: #000;*/ margin: 0; position: absolute; top: 30px; left: 16px; }
 
-.article-content .cl-item .cl-item-title { margin: 0 0 2px 100px; font-size: 20px; letter-spacing: 0.025em; position: relative; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; padding-top: 13px; }
+.article-content .cl-item .cl-item-photo { width: 86px; height: 97px; margin: 0; position: absolute; top: 30px; left: 16px; }
+
+.article-content .cl-item .cl-item-title { margin: 0 0 2px; font-size: 20px; letter-spacing: 0.025em; position: relative; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; padding-top: 13px; text-align: left; margin: 0; }
 .article-content .cl-item .cl-item-title:after { content: ''; position: absolute; top: 0; left: 0; width: 34px; height: 6px; background: #689598; }
-.article-content .cl-item .cl-item-subtitle  { font-size: 12px; line-height: 1.67; text-transform: none; font-weight: 400; margin: 0 53px -3px 100px; }
+.article-content .cl-item .cl-item-subtitle  { font-size: 12px; line-height: 1.67; text-transform: none; font-weight: 400;/* margin: 0 53px -3px; */}
 
-.article-content .cl-item .cl-item-content { padding: 0; display: flex; flex-direction: column; }
+/*.article-content .cl-item .cl-item-content { padding: 0; display: flex; flex-direction: column; margin-left: 15px; }*/
 .article-content .cl-item .cl-item-email  { font-size: 12px; line-height: 1.67; order: 1; margin: 1px 0 0; }
 .article-content .cl-item .cl-item-email a { color: #689598; text-decoration: underline; font-weight: 400; }
 .article-content .cl-item .cl-item-email a:after { display: none; }
