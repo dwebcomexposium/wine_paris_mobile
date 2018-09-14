@@ -1027,6 +1027,8 @@ body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 1
 .article-content .cl-item .cl-item-phone {  font-size: 12px; line-height: 1.67;  margin: 30px 0 0;   }
 .article-content .cl-item .cl-item-phone a:after { display: none; }
 .article-content .cl-item + .cl-item { margin-top: -1px; }
+.article-content .cl-item .label { margin-right: 5px; }
+
 
 /*  Article NAvigation  */
 .article-navigation { margin: 0 -15px; margin-bottom: 55px; }
