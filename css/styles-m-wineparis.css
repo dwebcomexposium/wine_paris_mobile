@@ -1308,3 +1308,4 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 .mn-menu-submenu .mn-link.is-active, .quicklinks-navigation .ql-item-link.is-active {background: inherit; }
 
 .article-wrapper .at-theme, .at-publication {display: none; }
+.article-wrapper .article-content iframe { max-width: 100%; height: auto; margin-top: 18px; margin-bottom: 12px; }
