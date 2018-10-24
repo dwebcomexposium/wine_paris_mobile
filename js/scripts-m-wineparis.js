@@ -189,34 +189,64 @@
 
 		$('.header-content').appendTo('.site-banner .inside');
 
-		if ( $('#youmax').length ) {
-	           $('#youmax').youmax({
-	               apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
-	               vimeoAccessToken: '',
-	               clientId: '438137961980-vlefbf8sgps4r5fqon9u92m93n0hc1pi.apps.googleusercontent.com',
-	               channel: '',
-	               youtube_playlist_videos: [{
-	                   name: 'Videos',
-	                   url: 'https://www.youtube.com/playlist?list=PLQMkMZb3Qgt_PLzky_20MgHBYtcj9UOWk',
-	                   selected: true
-	               }],
+if ($('#youmax').length) {
+	if ($('html').attr('lang') == 'fr') {
+					
+        // Youmax Slider
+        $('#youmax').youmax({
+			apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
+			vimeoAccessToken: '',
+			clientId: '438137961980-vlefbf8sgps4r5fqon9u92m93n0hc1pi.apps.googleusercontent.com',
+			channel: '',
+			youtube_playlist_videos: [{
+				name: 'Videos',
+				url: 'https://www.youtube.com/playlist?list=PLuy3B88HHXNlpB7NkVlN6F12mhs73CQam',
+				selected: true
+				}],
+				loadMode: 'paginate-sides',
+			loadButtonSize: 'small',
+			hideHeader: true,
+			hideNavigation: true,
+			hideComments: true,
+			maxResults: 1,
+			tabStyle: 'wire',
+			youmaxBackgroundColor: '#ffffff',
+			maxContainerWidth: 340,
+			fourColumnThumbnailWidth: '100%',
+			fourColumnThumbnailLeftRightMargin: '0',
+			videoProtocol: 'https:'
+		});
+	} else {
+		$('#youmax').youmax({
+			apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
+			vimeoAccessToken: '',
+			clientId: '438137961980-vlefbf8sgps4r5fqon9u92m93n0hc1pi.apps.googleusercontent.com',
+			channel: '',
+			youtube_playlist_videos: [{
+				name: 'Videos',
+				url: 'https://www.youtube.com/playlist?list=PLuy3B88HHXNlpB7NkVlN6F12mhs73CQam',
+				selected: true
+				}],
+				loadMode: 'paginate-sides',
+			loadButtonSize: 'small',
+			hideHeader: true,
+			hideNavigation: true,
+			hideComments: true,
+			maxResults: 1,
+			tabStyle: 'wire',
+			youmaxBackgroundColor: '#ffffff',
+			maxContainerWidth: 340,
+			fourColumnThumbnailWidth: '100%',
+			fourColumnThumbnailLeftRightMargin: '0',
+			videoProtocol: 'https:'
+		});
+	}
+};
 
-	               loadMode: 'paginate-sides',
-	               loadButtonSize: 'small',
-	               hideHeader: true,
-	               hideNavigation: true,
-	               hideComments: true,
-	               maxResults: 1,
-	               tabStyle: 'wire',
-	               youmaxBackgroundColor: '#ffffff',
-	               maxContainerWidth: 340,
-	               fourColumnThumbnailWidth: '100%',
-	               fourColumnThumbnailLeftRightMargin: '0',
-	               videoProtocol: 'https:'
-	           });
-	       }
 
-
-	})
+})
+	
 
 })(jQuery, window, document);
+
+
