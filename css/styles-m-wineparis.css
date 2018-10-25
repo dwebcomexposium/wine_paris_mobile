@@ -881,10 +881,12 @@ word-wrap: normal;
 .section-socials .section__title { color: #231f20; font-size: 28px; font-weight: 400; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; border: none; margin-bottom: 10px; padding: 0; position: relative; padding: 73px 0 0;  }
 .section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin.png) no-repeat 0 0; width: 24px; height: 36px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
-.section-socials .section__body { text-align: center; position: relative; padding: 264px 0 0;  }
+.section-socials .section__body { text-align: center; position: relative; padding: 350px 0 0;  }
 .section-socials .section__body .section__content { position: absolute; top: 0; left: 0; width: 100%; }
 .section-socials .section__body .section__content + .section__aside { margin-top: 25px; }
 .section-socials .section__body .logo-big { display: block; margin: 0 auto 18px; }
+
+.hashtag { display: inline-block; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; position: relative; padding: 13px 28px; background: #231f20; color: #fff; font-weight: 900; font-size: 17px; letter-spacing: 0.25em; margin-bottom: 25px; }
 
 /* ------------------------------------------------------------ *\
     Social Sharing
@@ -1308,4 +1310,5 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 .mn-menu-submenu .mn-link.is-active, .quicklinks-navigation .ql-item-link.is-active {background: inherit; }
 
 .article-wrapper .at-theme, .at-publication {display: none; }
-.article-wrapper .article-content iframe { max-width: 100%; height: auto; margin-top: 18px; margin-bottom: 12px; }
+
+body.article .article-content iframe { max-width: 100%; height: auto; margin-top: 18px; margin-bottom: 12px; }
