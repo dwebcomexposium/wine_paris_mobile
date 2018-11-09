@@ -260,7 +260,7 @@ word-wrap: normal;
 /* ------------------------------------------------------------ *\
     Widget My Selection
 \* ------------------------------------------------------------ */
-
+#cxpmClientAccountWidget { position: initial!important;  }
 .widget-my-selection { width: 50px; height: 48px; border: 1px solid #fff; position: absolute !important; top: 66px; right: 15px; z-index: 999;  }
 .widget-my-selection a.widget-icon { padding: 0 !important; position: absolute; top: 15px; left: 13px;   }
 .widget-my-selection a i.cap-icon-shopping_basket { display: inline-block; background: url(images/ico-basket.png) no-repeat 0 0; width: 17px; height: 16px; -webkit-background-size: 100% 100%; background-size: 100% 100%;    }
@@ -660,11 +660,12 @@ word-wrap: normal;
 
 #zone1 .links-right { position: absolute; bottom: 150px; left: 50%; z-index: 20; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 304px; }
 
-.links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 152px; height: 95px; font-size: 15px; line-height: 1.09; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.075em; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; }
+.links-right .btn-primary { background: #231f20; color: #fff; border: none; width: 152px; height: 95px;font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.07; padding: 0; display: flex; justify-content: center; -ms-align-items: center; align-items: center; position: relative; z-index: 10; text-transform: none; padding: 10px;
+}
 .links-right .btn-primary:after { content: ''; position: absolute; top: 50%; left: 100%; -webkit-transform: translateX(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/triangle-right.png) no-repeat 0 0; width: 8px; height: 23px; }    
 .links-right .btn-primary span { transition: -webkit-transform .4s; transition: -ms-transform .4s; transition: -o-transform .4s; -webkit-transition: transform .4s; -o-transition: transform .4s; transition: transform .4s; }
 .links-right li { display: inline-block; float: left;  }
-.links-right li + li .btn-primary  { background: #fff; color: #231f20; text-transform: none; font-weight: 700; font-family: 'Montserrat', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.07; z-index: 5; }
+.links-right li + li .btn-primary  { background: #fff; color: #231f20;   z-index: 5; }
 .links-right li + li .btn-primary:after { display: none; }
 .links-right a:hover span { -webkit-transform: translateY(-7px); -ms-transform: translateY(-7px); -o-transform: translateY(-7px); transform: translateY(-7px); }
 
@@ -1312,3 +1313,6 @@ body.partner .pl-item-group .pl-item-title, body.partner .pl-item-group .pl-item
 .article-wrapper .at-theme, .at-publication {display: none; }
 
 body.article .article-content iframe { max-width: 100%; height: auto; margin-top: 18px; margin-bottom: 12px; }
+
+.h-video { display: flex; padding: 10px 50px; background: #000; justify-content: center; margin: 50px 0; max-width: 920px; margin: 50px auto; position: relative; }
+.h-video:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down-big.png) no-repeat 0 0; width: 54px; height: 15px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }   
