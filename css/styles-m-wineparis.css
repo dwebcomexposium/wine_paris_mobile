@@ -1400,6 +1400,14 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .catalogue .catal-ex-item.is-top-premium .catal-ex-item-title a {font-weight: 700; }
 .catal-ed-main div.catal-ed-main-cover {margin-top: 20px; }
 
+
+
+.site-banner ~ .allows-over-stuck {z-index: 9999; }
+.mod-catal .m-btn-to-close i.icon-catal:before {color: #231f20;}
+.catal-results-title {display: none; }
+
+
+
 /* Loading */
 .mod-catal .shape:nth-child(1), .mod-catal .shape:nth-child(2), .mod-catal .shape:nth-child(3) { background: #231f20;}
 
