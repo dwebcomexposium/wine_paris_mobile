@@ -302,5 +302,3 @@ if ($('#youmax').length) {
 	
 
 })(jQuery, window, document);
-
-
