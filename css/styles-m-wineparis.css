@@ -160,12 +160,12 @@ word-wrap: normal;
 
 .logo { display: inline-block; background: url(images/logo-banner.png) no-repeat 0 0; width: 105px; height: 171px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
 
-.logo-big { display: inline-block; background: url(../wine_paris_mobile_git/images/logo-big.png) no-repeat 0 0; width: 230px; height: 162px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo-big { display: inline-block; background: url(images/logo-big.png) no-repeat 0 0; width: 230px; height: 162px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
-.logo1 { display: inline-block; background: url(../wine_paris_mobile_git/images/logo1.png) no-repeat 0 0; width: 133px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-.logo2 { display: inline-block; background: url(../wine_paris_mobile_git/images/logo-adhesion-group.png) no-repeat 0 0; width: 110px; height: 27px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
-.logo3 { display: inline-block; background: url(../wine_paris_mobile_git/images/logo3.png) no-repeat 0 0; width: 56px; height: 58px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo1 { display: inline-block; background: url(images/logo1.png) no-repeat 0 0; width: 133px; height: 21px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo2 { display: inline-block; background: url(images/logo-adhesion-group.png) no-repeat 0 0; width: 110px; height: 27px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.logo3 { display: inline-block; background: url(images/logo3.png) no-repeat 0 0; width: 56px; height: 58px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 /* ------------------------------------------------------------ *\
     Inside
@@ -327,7 +327,7 @@ word-wrap: normal;
 .la-slider .la-item-btn { position: relative; display: inline-block; position: relative; }
 .la-slider .la-item-btn:after { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 100%; background: #231f20; -webkit-transition: width .4s; -o-transition: width .4s; transition: width .4s; }
 .la-slider .la-item-btn .btn-primary { background: none; border: 1px solid #fff; font-size: 12px; letter-spacing: 0.1em; font-weight: 500; font-family: 'Brandon Grotesque', sans-serif; position: relative; padding: 12px 48px 10px 18px; z-index: 10; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
-.la-slider .la-item-btn .btn-primary i { background: url(../wine_paris_mobile_git/images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+.la-slider .la-item-btn .btn-primary i { background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 
 
 .la-slider .slider-pagin { bottom: 44px; }
@@ -710,7 +710,7 @@ word-wrap: normal;
 .edito-vin p strong { font-weight: 700; }
 
 .edito-vin .inside p a { text-decoration: none; font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; text-transform: uppercase; color: #231f20; letter-spacing: 0.1em; font-size: 10px; position: relative; padding-right: 22px;}
-.edito-vin .inside p a:after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(../wine_paris_mobile_git/images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.edito-vin .inside p a:after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/ico-arrow-right.png) no-repeat 0 0; width: 14px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 /* ------------------------------------------------------------ *\
@@ -732,7 +732,7 @@ word-wrap: normal;
 .evenements .gla-item .gla-item-content .gla-item-btn { position: absolute; bottom: 35px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); min-width: 179px; }
 
 .evenements .gla-item .gla-item-content .gla-btn-read-more { border: 1px solid #fff; background: none; z-index: 10; position: relative; font-size: 12px !important; font-family: 'Brandon Grotesque', sans-serif; font-weight: 500; letter-spacing: 0.1em; padding: 12px 12px 8px 16px; color: #fff; }
-.evenements .gla-item .gla-item-content .gla-btn-read-more i { background: url(../wine_paris_mobile_git/images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; }
+.evenements .gla-item .gla-item-content .gla-btn-read-more i { background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; }
 .evenements .gla-item .gla-item-content .gla-btn-read-more i:before { display: none; }
 
 
@@ -774,7 +774,7 @@ word-wrap: normal;
 
 
 .observatoire .gla-item .gla-item-btn .gla-btn-read-more { background: none; border: 1px solid #fff; font-size: 12px; color: #fff;  letter-spacing: 0.1em; font-weight: 500; font-family: 'Brandon Grotesque', sans-serif; position: relative; padding: 12px 48px 10px 18px; z-index: 10; -webkit-transition: .4s; -o-transition: .4s; transition: .4s; }
-.observatoire .gla-item .gla-item-btn .gla-btn-read-more i { background: url(../wine_paris_mobile_git/images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+.observatoire .gla-item .gla-item-btn .gla-btn-read-more i { background: url(images/ico-arrow-white-right.png) no-repeat 0 0; width: 18px; height: 9px; -webkit-background-size: 100% 100%; background-size: 100% 100%; display: inline-block !important; margin-left: 10px; vertical-align: middle; position: relative; top: -3px; position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 .observatoire .gla-item .gla-item-btn .gla-btn-read-more i:before { display: none; }
 
 
@@ -846,7 +846,7 @@ word-wrap: normal;
     Partner
 \* ------------------------------------------------------------ */
 
-.front .partner  { background: url(../wine_paris_mobile_git/images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
+.front .partner  { background: url(images/img1.jpg) no-repeat 0 0; -webkit-background-size: cover; background-size: cover; margin: 0 !important; padding: 60px 0 155px; position: relative; }
 .front .partner  .inside { padding: 0; }
 
 .front .partner  .main-title-with-link { border: none; text-align: center; margin: 0 0 36px; padding: 0; }
@@ -855,7 +855,7 @@ word-wrap: normal;
 .front .partner  .main-title-with-link .link-view-all i:before { display: none; }
 
 .front .partner  .main-title-with-link .main-title { color: #fff; float: none; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 28px; line-height: 1; letter-spacing: 0.05em; position: relative; padding: 64px 0 0;  }
-.front .partner  .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.front .partner  .main-title-with-link .main-title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-pin-white.png) no-repeat 0 0; width: 24px; height: 37px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 
 .front .partner  .slider { padding: 0; }
@@ -893,7 +893,7 @@ word-wrap: normal;
 .section-socials { padding: 60px 0 63px; }
 .section-socials .section__head { text-align: center; margin-bottom: 28px; position: static !important; -webkit-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
 .section-socials .section__title { color: #231f20; font-size: 28px; font-weight: 400; font-family: 'Brandon Grotesque', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; border: none; margin-bottom: 10px; padding: 0; position: relative; padding: 73px 0 0;  }
-.section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/ico-pin.png) no-repeat 0 0; width: 24px; height: 36px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.section-socials .section__title:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-pin.png) no-repeat 0 0; width: 24px; height: 36px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 
 .section-socials .section__body { text-align: center; position: relative; padding: 350px 0 0;  }
 .section-socials .section__body .section__content { position: absolute; top: 0; left: 0; width: 100%; }
@@ -935,13 +935,13 @@ word-wrap: normal;
 
 .article-title { position: relative; margin: 9px 0 0; }
 .article-title .inside { position: relative; display: flex; justify-content: space-between;flex-direction: column; }
-.article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
+.article-title .inside:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; display: none; }
 
 .article-title .inside { padding: 0; }
 .article-title .inside .at-main-title, .partner-list h1, .search h1  { text-transform: uppercase; text-align: center; font-size: 21px; line-height: 1.29; letter-spacing: 0.025em; font-family: 'Brandon Grotesque', sans-serif; color: #231f20; border: 0; }
 .article-title .inside img { order: 1; width: 100%; }
 .article-title .inside .at-content { position: relative; padding-bottom: 23px; }
-.article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
+.article-title .inside .at-content:after { content: ''; position: absolute; top: 100%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
 .article-intro { margin: 24px auto 0; max-width: 800px; text-align: center; }
 .article-intro p { font-size: 16px; line-height: 1.56; font-family: 'Montserrat', sans-serif; font-weight: 400; }
@@ -962,7 +962,7 @@ word-wrap: normal;
 .article-content figure figcaption { display: none; }
 .article-content figure small { font-size: 11px; color: #231f20; margin: 12px 0 0; letter-spacing: 0.05em; font-family: 'Montserrat', sans-serif; font-weight: 400; opacity: .5; padding-bottom: 10px; }
 .article-content figure.center { position: relative; }
-.article-content figure.center:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(../wine_paris_mobile_git/images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
+.article-content figure.center:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down.png) no-repeat 0 0; width: 38px; height: 10px; }
 
 body.gallery .article-content figure { width: 50%; float: left;  padding: 10px 10px 0; }
 
@@ -1194,7 +1194,7 @@ header.site-banner .header-content { position: absolute; top: 18px; left: 15px; 
 header.site-banner .header-content h3 { margin: 4px 0 0; color: #fff; font-weight: 900; font-size: 13px; letter-spacing: 0.075em; text-align: left; text-transform: uppercase; line-height: 1; }
 header.site-banner .header-content h3 span { display: block; font-size: 9px; letter-spacing: 0.11em; margin-top: 4px; }
 header.site-banner .header-content .logo--small { width: 88px; height: 145px; -webkit-background-size: 100% 100%; background-size: 100% 100%; position: absolute; top: 0; left: 0; }
-header.site-banner .header-content .ico-date { background-image: url(../wine_paris_mobile_git/images/ico-dates.png); width: 73px; height: 110px;   }
+header.site-banner .header-content .ico-date { background-image: url(images/ico-dates.png); width: 73px; height: 110px;   }
 
 header.site-banner .header-content h4 { color: #fff;  font-weight: 700; font-size: 23px; line-height: 1; position: relative;  margin: 23px 0 12px; }
 header.site-banner .header-content h4 span { font-size: 30px; letter-spacing: 0; display: block; margin-top: 1px;   }
@@ -1498,3 +1498,112 @@ body.article .article-content iframe { max-width: 100%; height: auto; margin-top
 .intro-alt .list-links:before { content: ''; position: absolute; top: 250px; left: 50%; margin-left: -15px; transform: translateX(-50%); display: inline-block; width: 260px; height: 77px; background-size: 100% 100%; background-image: url(images/2020-image.png); background-repeat: no-repeat;  }
  
 body:not(.front) header.site-banner:after { content: ''; position: absolute; top: 140px; left: 50%; margin-left: 5px; transform: translateX(-50%); display: inline-block; width: 200px; height: 59px; background-size: 100% 100%; background-image: url(images/2020-image.png); background-repeat: no-repeat;  }
+
+
+
+
+
+/* ------------------------------------------------------------ *\
+    Winesup
+\* ------------------------------------------------------------ */
+
+.winesup { margin-bottom: 263px; }
+.winesup .main-title-with-link { text-align: center; position: relative; margin-bottom: 50px; }
+.winesup .main-title-with-link > .main-title { float: none; color: #231f20; font-size: 21px; letter-spacing: 0.05em; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; }
+.winesup .main-title-with-link > .link-view-all { position: absolute; top: 467px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); font-weight: 700; font-family: 'Brandon Grotesque', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; background: none !important; white-space: nowrap; }
+.winesup .main-title-with-link > .link-view-all i { display: inline-block; margin: 0 0 0 10px; background: url(images/ico-arrow-right.png) no-repeat  0 0;  width: 15px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
+.winesup .main-title-with-link > .link-view-all i:before { display: none; }
+
+.winesup .list-grids-with-pagin .grid-la-list { display: block; display: flex;  }
+.winesup .list-grids-with-pagin .gla-item { margin: 0; padding: 0 39px; }
+.winesup .list-grids-with-pagin .gla-item > a { display: block; }
+
+.winesup .list-grids-with-pagin .gla-item:after { top: auto; bottom: 33px; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content  { color: #fff; display: block; position: relative; padding: 110px 20px 20px; min-height: 339px; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content:after { top: auto; bottom: 0; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-tag { background: #fff; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 10px;  min-width: 88px; top: 73px; padding: 1px 4px 0;  }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-tag:after { content: ''; position: absolute; top: -30px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/ico-w.png) no-repeat 0 0; width: 49px; height: 34px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-btn { position: absolute; bottom: 53px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: #fff; color: #231f20; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-btn span { border: none; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-title { color: #fff; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 22px; line-height: 1.36; letter-spacing: 0; }
+
+.winesup .list-grids-with-pagin .slider-pagination { margin-top: 18px; text-align: center; }
+.winesup .list-grids-with-pagin .slider-pagination a { font-size: 0; display: inline-block; border: 1px solid #161616; width: 10px; height: 10px; border-radius: 50%; -webkit-transition: background .4s; -o-transition: background .4s; transition: background .4s; }
+.winesup .list-grids-with-pagin .slider-pagination a + a { margin-left: 19px; }
+.winesup .list-grids-with-pagin .slider-pagination .selected { background: #161616; }
+
+.winesup .list-grids-with-pagin .gla-item.color-1 .gla-item-content { background: #f59331 !important; }
+.winesup .list-grids-with-pagin .gla-item.color-1 .gla-item-content .gla-item-tag { color: #f59331; }
+.winesup .list-grids-with-pagin .gla-item.color-2 .gla-item-content { background: #ef662f !important; }
+.winesup .list-grids-with-pagin .gla-item.color-2 .gla-item-content .gla-item-tag { color: #ef662f; }
+.winesup .list-grids-with-pagin .gla-item.color-3 .gla-item-content { background: #689598 !important; }
+.winesup .list-grids-with-pagin .gla-item.color-3 .gla-item-content .gla-item-tag { color: #689598; }
+.winesup .list-grids-with-pagin .gla-item.color-4 .gla-item-content { background: #bc2132 !important; }
+.winesup .list-grids-with-pagin .gla-item.color-4 .gla-item-content .gla-item-tag { color: #bc2132; }
+
+
+/* ------------------------------------------------------------ *\
+    Section Def
+\* ------------------------------------------------------------ */
+
+.section-def { background: #f3f1ed; padding: 0 0 30px; }
+
+.section-def .section__image { margin: -35px auto -44px; display: block; position: relative; top: -44px; width: 282px; height: 282px; border-radius: 50%; overflow: hidden; margin-top: -77px; background-position: center center; }
+.section-def .section__image span { position: absolute; bottom: 54px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: #fff; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 12px; color: #2b2622; letter-spacing: 0.15em; text-transform: uppercase; padding: 4px 4px; min-width: 187px; text-align: center; }
+
+.section-def .section__inner { position: relative; }
+
+.section-def .section__content { margin: 29px 0 0; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 12px; line-height: 1.75; color: #161616; }
+.section-def .section__content p { letter-spacing: 0.05em; margin: 0; line-height: 1.8; letter-spacing: 0.055em; margin-right: -10px; }
+.section-def .section__content h3 { position: relative; font-weight: 900; font-family: 'Brandon Grotesque', sans-serif; font-size: 22px; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 15px; position: relative; line-height: 1.2; }
+.section-def .section__content h3:after { content: ''; position: absolute; top: -25px; left: 0; width: 37px; height: 8px; background: #161616; }
+
+.link-alt { font-family: 'Brandon Grotesque', sans-serif; font-weight: 700; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; margin-left: 3px; margin-top: 17px; display: inline-block; color: #231f20; }
+.link-alt i { width: 14px; height: 7px; margin-left: 10px; }
+
+.section-def .section__content a {  color: #161616; }
+
+
+
+
+
+/* ------------------------------------------------------------ *\
+    Gabrielle
+\* ------------------------------------------------------------ */
+
+.gabrielle { background: #f3f1ed; padding-bottom: 42px;  margin-top: 0 !important; }
+
+.gabrielle .grid-la-list .gla-item { margin: 0; }
+
+.gabrielle .grid-la-list .gla-item:after { top: 326px; }
+.gabrielle .grid-la-list .gla-item .at-tag { padding: 0; border: none; position: absolute; top: 277px; left: 0; width: 100%; padding: 0 40px; display: none; }
+.gabrielle .grid-la-list .gla-item .at-tag-item { border: none; padding: 0; }
+.gabrielle .grid-la-list .gla-item .at-tag-item + .at-tag-item  { margin-left: 5px; }
+.gabrielle .grid-la-list .gla-item .at-tag-item a {  text-decoration: none; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 12px; }
+.gabrielle .grid-la-list .gla-item .gla-item-content { padding: 35px 20px 10px; min-height: 205px;  }
+.gabrielle .grid-la-list .gla-item .gla-item-content:after { top: 330px; }
+.gabrielle .grid-la-list .gla-item .gla-item-title { font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 18px; line-height: 1.33; letter-spacing: 0.05em; padding: 0 10px; margin-bottom: 30px; }
+.gabrielle .grid-la-list .gla-item .gla-item-btn { margin: 0 auto; }
+
+.gabrielle .grid-la-list .gla-item .gla-item-tag { position: absolute; top: 266px; left: 0; width: 100%; padding: 0 40px; background: none; color: #fff; text-decoration: none; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 12px;  -webkit-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); text-transform: none; letter-spacing: 0.1em; }
+
+.gabrielle .slider-pagination { display: block !important; text-align: center; margin-top: 27px; }
+.gabrielle .slider-pagination a { font-size: 0; display: inline-block; border: 1px solid #161616; width: 10px; height: 10px; border-radius: 50%; -webkit-transition: background .4s; -o-transition: background .4s; transition: background .4s; }
+.gabrielle .slider-pagination a + a { margin-left: 19px; }
+.gabrielle .slider-pagination .selected { background: #161616; }
+
+@media(max-width: 374px){
+    .gabrielle .grid-la-list .gla-item .gla-item-tag { top: 210px; }
+    .gabrielle .grid-la-list .gla-item .gla-item-content:after { top: 275px; }
+}
+
+
+/* ------------------------------------------------------------ *\
+    Section Actions
+\* ------------------------------------------------------------ */
+
+.section-actions { text-align: center; background: #f3f1ed; padding-bottom: 60px; margin-bottom: 80px; }
+
+.section-actions .link-alt { font-weight: 700; font-family: 'Brandon Grotesque', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; background: none !important; white-space: nowrap; }
+.section-actions .link-alt i { display: inline-block; margin: 0 0 0 10px; background: url(images/ico-arrow-right.png) no-repeat  0 0;  width: 15px; height: 7px; -webkit-background-size: 100% 100%; background-size: 100% 100%;  }
+.section-actions .link-alt i:before { display: none; }
