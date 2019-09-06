@@ -1515,7 +1515,7 @@ body:not(.front) header.site-banner:after { content: ''; position: absolute; top
 .winesup .main-title-with-link > .link-view-all i:before { display: none; }
 
 .winesup .list-grids-with-pagin .grid-la-list { display: block; display: flex;  }
-.winesup .list-grids-with-pagin .gla-item { margin: 0; padding: 0 39px; }
+.winesup .list-grids-with-pagin .gla-item { margin: 0; padding: 0 39px; box-shadow: none; }
 .winesup .list-grids-with-pagin .gla-item > a { display: block; }
 
 .winesup .list-grids-with-pagin .gla-item:after { top: auto; bottom: 33px; }
