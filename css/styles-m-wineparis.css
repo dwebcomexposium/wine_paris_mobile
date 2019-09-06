@@ -1532,6 +1532,9 @@ body:not(.front) header.site-banner:after { content: ''; position: absolute; top
 .winesup .list-grids-with-pagin .slider-pagination a + a { margin-left: 19px; }
 .winesup .list-grids-with-pagin .slider-pagination .selected { background: #161616; }
 
+.winesup .list-grids-with-pagin .gla-item .gla-item-content { background: #f59331 !important; }
+.winesup .list-grids-with-pagin .gla-item .gla-item-content .gla-item-tag { color: #f59331; }
+
 .winesup .list-grids-with-pagin .gla-item.color-1 .gla-item-content { background: #f59331 !important; }
 .winesup .list-grids-with-pagin .gla-item.color-1 .gla-item-content .gla-item-tag { color: #f59331; }
 .winesup .list-grids-with-pagin .gla-item.color-2 .gla-item-content { background: #ef662f !important; }
@@ -1541,6 +1544,15 @@ body:not(.front) header.site-banner:after { content: ''; position: absolute; top
 .winesup .list-grids-with-pagin .gla-item.color-4 .gla-item-content { background: #bc2132 !important; }
 .winesup .list-grids-with-pagin .gla-item.color-4 .gla-item-content .gla-item-tag { color: #bc2132; }
 
+
+.winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content { background: #f59331 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(1) .gla-item-content .gla-item-tag { color: #f59331; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(2) .gla-item-content { background: #ef662f !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(2) .gla-item-content .gla-item-tag { color: #ef662f; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(3) .gla-item-content { background: #689598 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(3) .gla-item-content .gla-item-tag { color: #689598; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(4) .gla-item-content { background: #bc2132 !important; }
+.winesup .list-grids-with-pagin .gla-item:nth-child(4) .gla-item-content .gla-item-tag { color: #bc2132; }
 
 /* ------------------------------------------------------------ *\
     Section Def
