@@ -1643,4 +1643,5 @@ body:not(.front) header.site-banner:after { content: ''; position: absolute; top
 
 /*map off*/
 .full-width { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }  
- body.lp-off .article-content iframe { height: 100%; }
+body.lp-off .article-content iframe { height: 900px; }
+body.lp-off header.site-banner.headroom--not-top .sb-menu-trigger { display: none; }
